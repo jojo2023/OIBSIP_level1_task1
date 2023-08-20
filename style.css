@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    color: black;
+    font-weight: bold;
+}
+
+/* .topleft{
+    width: 50%;
+} */
+
+/* .topright{
+    width: 50%;
+} */
+
+.section1{
+   max-height: 100vh; 
+   position: relative;
+   overflow: hidden;
+   padding-bottom: 40vh;
+}
+
+.gymimg{
+    position: absolute;
+    width: 110%;
+    height: auto;
+    opacity: 0.7;
+    transform: scaleX(-1);
+}
+
+.flex{
+    position: relative;
+}
+
+.section1 h1 {
+    font-size: 2rem;
+}
+
+.section1 p{
+    
+    padding: 0 20% 0 20%;
+    text-align: justify;
+}
+
+.section1 .timer{
+    text-align: center;
+}
+
+.timer #demo{
+    color: red;
+    font-weight: bolder;
+}
+
+.logo
+{
+    font-size: 1.3rem;
+    padding-left: 30px;
+}
+
+.dumbellimg{
+    width: 289px;
+    padding-top: 10vh;
+}
+
+/* .topright .gymimg{
+    width: 466px;
+} */
+/* 
+.section1{
+    position: relative;
+} */
+
+.button{
+    margin: 0;
+    flex-direction: row;
+    align-self: center;
+    padding-top: 50px;
+}
+
+button{
+    margin-right: 20px;
+}
+
+/* _________________
+BG Image setting
+_________________ */
+/* Padding shorthand = padding: top right bottom left px; (Clockwise) */
+.section2{
+    padding: 0 73 0 0 px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.sec2_bg{
+    position: absolute;
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+}
+
+.section2_content{
+    position: relative;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px ;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+    background: linear-gradient(90deg, rgb(200, 200, 200), transparent 50%);
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    background: linear-gradient(-90deg, grey, transparent 30%), linear-gradient(90deg, grey, transparent 30%)
+}
